@@ -9,11 +9,37 @@
 /* Begin PBXBuildFile section */
 		AD530E861AE27091002EA645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD530E851AE27091002EA645 /* main.m */; };
 		AD530E891AE27091002EA645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD530E881AE27091002EA645 /* AppDelegate.m */; };
-		AD530E8C1AE27091002EA645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD530E8B1AE27091002EA645 /* ViewController.m */; };
-		AD530E8F1AE27091002EA645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD530E8D1AE27091002EA645 /* Main.storyboard */; };
 		AD530E911AE27091002EA645 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD530E901AE27091002EA645 /* Images.xcassets */; };
 		AD530E941AE27091002EA645 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD530E921AE27091002EA645 /* LaunchScreen.xib */; };
 		AD530EA01AE27091002EA645 /* WheelyCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD530E9F1AE27091002EA645 /* WheelyCloneTests.m */; };
+		AD530EB21AE27A4C002EA645 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD530EB01AE27A4C002EA645 /* MapViewController.m */; };
+		AD530EB31AE27A4C002EA645 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD530EB11AE27A4C002EA645 /* MapViewController.xib */; };
+		AD530EB51AE27ABB002EA645 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD530EB41AE27ABB002EA645 /* MapKit.framework */; };
+		AD660A6F1AE2821E0070E4C2 /* PinCarMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD660A6C1AE2821E0070E4C2 /* PinCarMask@2x.png */; };
+		AD660A701AE2821E0070E4C2 /* PinCarOverlayDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD660A6D1AE2821E0070E4C2 /* PinCarOverlayDark@2x.png */; };
+		AD660A711AE2821E0070E4C2 /* PinCarOverlayLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD660A6E1AE2821E0070E4C2 /* PinCarOverlayLight@2x.png */; };
+		AD66C4F41AE28E8E00F202FF /* LogoNavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD66C4F31AE28E8E00F202FF /* LogoNavigationBar@2x.png */; };
+		AD66C4F61AE28F7A00F202FF /* IconMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD66C4F51AE28F7A00F202FF /* IconMenu@2x.png */; };
+		AD66C4F91AE2911A00F202FF /* CarAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C4F81AE2911A00F202FF /* CarAnnotation.m */; };
+		AD66C4FC1AE2913900F202FF /* CarAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C4FB1AE2913900F202FF /* CarAnnotationView.m */; };
+		AD66C4FF1AE2B2DB00F202FF /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C4FE1AE2B2DB00F202FF /* Car.m */; };
+		AD66C5021AE2B45000F202FF /* PinPickupBody@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD66C5011AE2B45000F202FF /* PinPickupBody@2x.png */; };
+		AD66C5041AE2B45800F202FF /* PinPickupCircleLoading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD66C5031AE2B45800F202FF /* PinPickupCircleLoading@2x.png */; };
+		AD66C5081AE2B67800F202FF /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C5071AE2B67800F202FF /* NSObject+JSON.m */; };
+		AD66C50B1AE2B86200F202FF /* Wheely.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C50A1AE2B86200F202FF /* Wheely.m */; };
+		AD66C50F1AE2BA7400F202FF /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C50D1AE2BA7400F202FF /* RequestViewController.m */; };
+		AD66C5101AE2BA7400F202FF /* RequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD66C50E1AE2BA7400F202FF /* RequestViewController.xib */; };
+		AD66C5131AE2BC8700F202FF /* Offer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C5121AE2BC8700F202FF /* Offer.m */; };
+		AD66C5181AE2BE0D00F202FF /* OfferCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C5161AE2BE0D00F202FF /* OfferCell.m */; };
+		AD66C5191AE2BE0D00F202FF /* OfferCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD66C5171AE2BE0D00F202FF /* OfferCell.xib */; };
+		AD66C5261AE2C86300F202FF /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C5241AE2C86300F202FF /* MenuViewController.m */; };
+		AD66C5271AE2C86300F202FF /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD66C5251AE2C86300F202FF /* MenuViewController.xib */; };
+		AD66C52F1AE2C89500F202FF /* LeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C52E1AE2C89500F202FF /* LeftController.m */; };
+		AD66C5331AE2D7A800F202FF /* WheelygramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C5311AE2D7A800F202FF /* WheelygramViewController.m */; };
+		AD66C5341AE2D7A800F202FF /* WheelygramViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD66C5321AE2D7A800F202FF /* WheelygramViewController.xib */; };
+		AD66C5381AE3036D00F202FF /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66C5361AE3036C00F202FF /* PhotoCell.m */; };
+		AD66C5391AE3036D00F202FF /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD66C5371AE3036C00F202FF /* PhotoCell.xib */; };
+		C58D99E85050633C4189BF0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F988096600AB7529056E2B4D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +53,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91CD69DE31A6E39F812ED4F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A3C3802444D7B2C3864B47D0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AD530E801AE27091002EA645 /* WheelyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD530E841AE27091002EA645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD530E851AE27091002EA645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD530E871AE27091002EA645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD530E881AE27091002EA645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD530E8A1AE27091002EA645 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD530E8B1AE27091002EA645 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AD530E8E1AE27091002EA645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD530E901AE27091002EA645 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD530E931AE27091002EA645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AD530E991AE27091002EA645 /* WheelyCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelyCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD530E9E1AE27091002EA645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD530E9F1AE27091002EA645 /* WheelyCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelyCloneTests.m; sourceTree = "<group>"; };
+		AD530EAF1AE27A4C002EA645 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		AD530EB01AE27A4C002EA645 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		AD530EB11AE27A4C002EA645 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		AD530EB41AE27ABB002EA645 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AD660A6C1AE2821E0070E4C2 /* PinCarMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinCarMask@2x.png"; sourceTree = "<group>"; };
+		AD660A6D1AE2821E0070E4C2 /* PinCarOverlayDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinCarOverlayDark@2x.png"; sourceTree = "<group>"; };
+		AD660A6E1AE2821E0070E4C2 /* PinCarOverlayLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinCarOverlayLight@2x.png"; sourceTree = "<group>"; };
+		AD66C4F31AE28E8E00F202FF /* LogoNavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LogoNavigationBar@2x.png"; sourceTree = "<group>"; };
+		AD66C4F51AE28F7A00F202FF /* IconMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconMenu@2x.png"; sourceTree = "<group>"; };
+		AD66C4F71AE2911A00F202FF /* CarAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarAnnotation.h; sourceTree = "<group>"; };
+		AD66C4F81AE2911A00F202FF /* CarAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarAnnotation.m; sourceTree = "<group>"; };
+		AD66C4FA1AE2913900F202FF /* CarAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarAnnotationView.h; sourceTree = "<group>"; };
+		AD66C4FB1AE2913900F202FF /* CarAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarAnnotationView.m; sourceTree = "<group>"; };
+		AD66C4FD1AE2B2DB00F202FF /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		AD66C4FE1AE2B2DB00F202FF /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		AD66C5011AE2B45000F202FF /* PinPickupBody@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinPickupBody@2x.png"; sourceTree = "<group>"; };
+		AD66C5031AE2B45800F202FF /* PinPickupCircleLoading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PinPickupCircleLoading@2x.png"; sourceTree = "<group>"; };
+		AD66C5051AE2B67800F202FF /* JSONCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONCoding.h; sourceTree = "<group>"; };
+		AD66C5061AE2B67800F202FF /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		AD66C5071AE2B67800F202FF /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		AD66C5091AE2B86200F202FF /* Wheely.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wheely.h; sourceTree = "<group>"; };
+		AD66C50A1AE2B86200F202FF /* Wheely.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wheely.m; sourceTree = "<group>"; };
+		AD66C50C1AE2BA7400F202FF /* RequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
+		AD66C50D1AE2BA7400F202FF /* RequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+		AD66C50E1AE2BA7400F202FF /* RequestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestViewController.xib; sourceTree = "<group>"; };
+		AD66C5111AE2BC8700F202FF /* Offer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offer.h; sourceTree = "<group>"; };
+		AD66C5121AE2BC8700F202FF /* Offer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offer.m; sourceTree = "<group>"; };
+		AD66C5151AE2BE0D00F202FF /* OfferCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferCell.h; sourceTree = "<group>"; };
+		AD66C5161AE2BE0D00F202FF /* OfferCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferCell.m; sourceTree = "<group>"; };
+		AD66C5171AE2BE0D00F202FF /* OfferCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferCell.xib; sourceTree = "<group>"; };
+		AD66C5231AE2C86300F202FF /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		AD66C5241AE2C86300F202FF /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		AD66C5251AE2C86300F202FF /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		AD66C52D1AE2C89500F202FF /* LeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftController.h; sourceTree = "<group>"; };
+		AD66C52E1AE2C89500F202FF /* LeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftController.m; sourceTree = "<group>"; };
+		AD66C5301AE2D7A800F202FF /* WheelygramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelygramViewController.h; sourceTree = "<group>"; };
+		AD66C5311AE2D7A800F202FF /* WheelygramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelygramViewController.m; sourceTree = "<group>"; };
+		AD66C5321AE2D7A800F202FF /* WheelygramViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WheelygramViewController.xib; sourceTree = "<group>"; };
+		AD66C5351AE3036C00F202FF /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		AD66C5361AE3036C00F202FF /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		AD66C5371AE3036C00F202FF /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		F988096600AB7529056E2B4D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD530EB51AE27ABB002EA645 /* MapKit.framework in Frameworks */,
+				C58D99E85050633C4189BF0B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +129,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B59B1EEDF0F11378678083D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3C3802444D7B2C3864B47D0 /* Pods.debug.xcconfig */,
+				91CD69DE31A6E39F812ED4F5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD530E771AE27091002EA645 = {
 			isa = PBXGroup;
 			children = (
 				AD530E821AE27091002EA645 /* WheelyClone */,
 				AD530E9C1AE27091002EA645 /* WheelyCloneTests */,
 				AD530E811AE27091002EA645 /* Products */,
+				4B59B1EEDF0F11378678083D /* Pods */,
+				FA0141D2E1D8B560F0609513 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +161,8 @@
 		AD530E821AE27091002EA645 /* WheelyClone */ = {
 			isa = PBXGroup;
 			children = (
-				AD530E871AE27091002EA645 /* AppDelegate.h */,
-				AD530E881AE27091002EA645 /* AppDelegate.m */,
-				AD530E8A1AE27091002EA645 /* ViewController.h */,
-				AD530E8B1AE27091002EA645 /* ViewController.m */,
-				AD530E8D1AE27091002EA645 /* Main.storyboard */,
-				AD530E901AE27091002EA645 /* Images.xcassets */,
-				AD530E921AE27091002EA645 /* LaunchScreen.xib */,
+				AD530EAA1AE27844002EA645 /* Sources */,
+				AD530EAD1AE27898002EA645 /* Resources */,
 				AD530E831AE27091002EA645 /* Supporting Files */,
 			);
 			path = WheelyClone;
@@ -119,6 +194,153 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AD530EA91AE2783F002EA645 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C4FD1AE2B2DB00F202FF /* Car.h */,
+				AD66C4FE1AE2B2DB00F202FF /* Car.m */,
+				AD66C5111AE2BC8700F202FF /* Offer.h */,
+				AD66C5121AE2BC8700F202FF /* Offer.m */,
+				AD66C5091AE2B86200F202FF /* Wheely.h */,
+				AD66C50A1AE2B86200F202FF /* Wheely.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AD530EAA1AE27844002EA645 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AD530EAC1AE27884002EA645 /* Helpers */,
+				AD530EA91AE2783F002EA645 /* Models */,
+				AD530EAB1AE2787A002EA645 /* View & Controllers */,
+				AD530E871AE27091002EA645 /* AppDelegate.h */,
+				AD530E881AE27091002EA645 /* AppDelegate.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		AD530EAB1AE2787A002EA645 /* View & Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C5201AE2C81200F202FF /* Common */,
+				AD66C5221AE2C83700F202FF /* Menu */,
+				AD66C51F1AE2C7BE00F202FF /* Wheelygram */,
+				AD66C5141AE2BDF300F202FF /* Request */,
+				AD530EAE1AE279F8002EA645 /* Map */,
+			);
+			name = "View & Controllers";
+			sourceTree = "<group>";
+		};
+		AD530EAC1AE27884002EA645 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C5051AE2B67800F202FF /* JSONCoding.h */,
+				AD66C5061AE2B67800F202FF /* NSObject+JSON.h */,
+				AD66C5071AE2B67800F202FF /* NSObject+JSON.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		AD530EAD1AE27898002EA645 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C5001AE2B2F500F202FF /* Images */,
+				AD530E901AE27091002EA645 /* Images.xcassets */,
+				AD530E921AE27091002EA645 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AD530EAE1AE279F8002EA645 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				AD530EAF1AE27A4C002EA645 /* MapViewController.h */,
+				AD530EB01AE27A4C002EA645 /* MapViewController.m */,
+				AD530EB11AE27A4C002EA645 /* MapViewController.xib */,
+				AD66C4F71AE2911A00F202FF /* CarAnnotation.h */,
+				AD66C4F81AE2911A00F202FF /* CarAnnotation.m */,
+				AD66C4FA1AE2913900F202FF /* CarAnnotationView.h */,
+				AD66C4FB1AE2913900F202FF /* CarAnnotationView.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		AD66C5001AE2B2F500F202FF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C5031AE2B45800F202FF /* PinPickupCircleLoading@2x.png */,
+				AD66C5011AE2B45000F202FF /* PinPickupBody@2x.png */,
+				AD66C4F51AE28F7A00F202FF /* IconMenu@2x.png */,
+				AD660A6C1AE2821E0070E4C2 /* PinCarMask@2x.png */,
+				AD660A6D1AE2821E0070E4C2 /* PinCarOverlayDark@2x.png */,
+				AD660A6E1AE2821E0070E4C2 /* PinCarOverlayLight@2x.png */,
+				AD66C4F31AE28E8E00F202FF /* LogoNavigationBar@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AD66C5141AE2BDF300F202FF /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C5151AE2BE0D00F202FF /* OfferCell.h */,
+				AD66C5161AE2BE0D00F202FF /* OfferCell.m */,
+				AD66C5171AE2BE0D00F202FF /* OfferCell.xib */,
+				AD66C50C1AE2BA7400F202FF /* RequestViewController.h */,
+				AD66C50D1AE2BA7400F202FF /* RequestViewController.m */,
+				AD66C50E1AE2BA7400F202FF /* RequestViewController.xib */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		AD66C51F1AE2C7BE00F202FF /* Wheelygram */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C5351AE3036C00F202FF /* PhotoCell.h */,
+				AD66C5361AE3036C00F202FF /* PhotoCell.m */,
+				AD66C5371AE3036C00F202FF /* PhotoCell.xib */,
+				AD66C5301AE2D7A800F202FF /* WheelygramViewController.h */,
+				AD66C5311AE2D7A800F202FF /* WheelygramViewController.m */,
+				AD66C5321AE2D7A800F202FF /* WheelygramViewController.xib */,
+			);
+			name = Wheelygram;
+			sourceTree = "<group>";
+		};
+		AD66C5201AE2C81200F202FF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C5211AE2C81800F202FF /* Left */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		AD66C5211AE2C81800F202FF /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C52D1AE2C89500F202FF /* LeftController.h */,
+				AD66C52E1AE2C89500F202FF /* LeftController.m */,
+			);
+			name = Left;
+			sourceTree = "<group>";
+		};
+		AD66C5221AE2C83700F202FF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AD66C5231AE2C86300F202FF /* MenuViewController.h */,
+				AD66C5241AE2C86300F202FF /* MenuViewController.m */,
+				AD66C5251AE2C86300F202FF /* MenuViewController.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		FA0141D2E1D8B560F0609513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD530EB41AE27ABB002EA645 /* MapKit.framework */,
+				F988096600AB7529056E2B4D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +348,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD530EA31AE27091002EA645 /* Build configuration list for PBXNativeTarget "WheelyClone" */;
 			buildPhases = (
+				0B7DDC73735B719DCF79754B /* Check Pods Manifest.lock */,
 				AD530E7C1AE27091002EA645 /* Sources */,
 				AD530E7D1AE27091002EA645 /* Frameworks */,
 				AD530E7E1AE27091002EA645 /* Resources */,
+				4F04481977563A3312B70F33 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +392,11 @@
 				TargetAttributes = {
 					AD530E7F1AE27091002EA645 = {
 						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					AD530E981AE27091002EA645 = {
 						CreatedOnToolsVersion = 6.3;
@@ -199,9 +428,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD530E8F1AE27091002EA645 /* Main.storyboard in Resources */,
 				AD530E941AE27091002EA645 /* LaunchScreen.xib in Resources */,
+				AD66C5101AE2BA7400F202FF /* RequestViewController.xib in Resources */,
+				AD66C5041AE2B45800F202FF /* PinPickupCircleLoading@2x.png in Resources */,
+				AD530EB31AE27A4C002EA645 /* MapViewController.xib in Resources */,
+				AD66C4F61AE28F7A00F202FF /* IconMenu@2x.png in Resources */,
+				AD66C5271AE2C86300F202FF /* MenuViewController.xib in Resources */,
+				AD660A701AE2821E0070E4C2 /* PinCarOverlayDark@2x.png in Resources */,
+				AD660A711AE2821E0070E4C2 /* PinCarOverlayLight@2x.png in Resources */,
 				AD530E911AE27091002EA645 /* Images.xcassets in Resources */,
+				AD66C5391AE3036D00F202FF /* PhotoCell.xib in Resources */,
+				AD66C5341AE2D7A800F202FF /* WheelygramViewController.xib in Resources */,
+				AD66C5191AE2BE0D00F202FF /* OfferCell.xib in Resources */,
+				AD660A6F1AE2821E0070E4C2 /* PinCarMask@2x.png in Resources */,
+				AD66C5021AE2B45000F202FF /* PinPickupBody@2x.png in Resources */,
+				AD66C4F41AE28E8E00F202FF /* LogoNavigationBar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +455,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B7DDC73735B719DCF79754B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F04481977563A3312B70F33 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD530E7C1AE27091002EA645 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD530E8C1AE27091002EA645 /* ViewController.m in Sources */,
+				AD66C5181AE2BE0D00F202FF /* OfferCell.m in Sources */,
+				AD66C4FF1AE2B2DB00F202FF /* Car.m in Sources */,
+				AD66C50B1AE2B86200F202FF /* Wheely.m in Sources */,
+				AD66C5261AE2C86300F202FF /* MenuViewController.m in Sources */,
+				AD66C4FC1AE2913900F202FF /* CarAnnotationView.m in Sources */,
+				AD530EB21AE27A4C002EA645 /* MapViewController.m in Sources */,
+				AD66C5381AE3036D00F202FF /* PhotoCell.m in Sources */,
 				AD530E891AE27091002EA645 /* AppDelegate.m in Sources */,
+				AD66C50F1AE2BA7400F202FF /* RequestViewController.m in Sources */,
 				AD530E861AE27091002EA645 /* main.m in Sources */,
+				AD66C4F91AE2911A00F202FF /* CarAnnotation.m in Sources */,
+				AD66C52F1AE2C89500F202FF /* LeftController.m in Sources */,
+				AD66C5131AE2BC8700F202FF /* Offer.m in Sources */,
+				AD66C5081AE2B67800F202FF /* NSObject+JSON.m in Sources */,
+				AD66C5331AE2D7A800F202FF /* WheelygramViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +530,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD530E8D1AE27091002EA645 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD530E8E1AE27091002EA645 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD530E921AE27091002EA645 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,6 +623,7 @@
 		};
 		AD530EA41AE27091002EA645 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C3802444D7B2C3864B47D0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WheelyClone/Info.plist;
@@ -355,6 +634,7 @@
 		};
 		AD530EA51AE27091002EA645 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CD69DE31A6E39F812ED4F5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WheelyClone/Info.plist;
@@ -416,6 +696,7 @@
 				AD530EA51AE27091002EA645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD530EA61AE27091002EA645 /* Build configuration list for PBXNativeTarget "WheelyCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +705,7 @@
 				AD530EA81AE27091002EA645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

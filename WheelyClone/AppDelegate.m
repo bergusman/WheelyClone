@@ -8,38 +8,53 @@
 
 #import "AppDelegate.h"
 
+#import "LeftController.h"
+#import "MenuViewController.h"
+#import "MapViewController.h"
+
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
+#pragma mark - Setups
+
+- (void)setupAppearance {
+    [UINavigationBar appearance].barStyle = UIBarStyleBlack;
+    [UINavigationBar appearance].barTintColor = [UIColor blackColor];
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+}
+
+#pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setupAppearance];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    LeftController *leftVC = [[LeftController alloc] init];
+    
+    MapViewController *mapVC = [[MapViewController alloc] init];
+    UINavigationController *mapNC = [[UINavigationController alloc] initWithRootViewController:mapVC];
+
+    MenuViewController *menuVC = [[MenuViewController alloc] init];
+    
+    
+    leftVC.menuViewController = menuVC;
+    leftVC.contentViewController = mapNC;
+    self.window.rootViewController = leftVC;
+    
+    self.mapNavigationController = mapNC;
+    
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-}
+#pragma mark - Singleton
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
++ (AppDelegate *)shared {
+    return [UIApplication sharedApplication].delegate;
 }
 
 @end

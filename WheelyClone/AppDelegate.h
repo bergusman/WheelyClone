@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) UINavigationController *mapNavigationController;
+
++ (AppDelegate *)shared;
 
 @end
 

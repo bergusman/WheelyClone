@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14E7f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="238" id="KGk-i7-Jjw" customClass="PhotoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="238"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9c7-Hf-HhL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="237"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9c7-Hf-HhL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="DgC-Ug-CrK"/>
+                    <constraint firstItem="9c7-Hf-HhL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="peK-Gg-Zy8"/>
+                    <constraint firstAttribute="trailing" secondItem="9c7-Hf-HhL" secondAttribute="trailing" id="pz7-6D-RCB"/>
+                    <constraint firstAttribute="bottom" secondItem="9c7-Hf-HhL" secondAttribute="bottom" id="spQ-HS-CdD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="photoImageView" destination="9c7-Hf-HhL" id="XAy-fG-2VV"/>
+            </connections>
+            <point key="canvasLocation" x="430" y="245"/>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
