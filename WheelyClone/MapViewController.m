@@ -127,10 +127,6 @@
             self.annotationsByIds[carId] = annotation;
             
             [self.mapView addAnnotation:annotation];
-            
-            
-
-            
         }
         
         self.newsCardHack = newCars;
@@ -159,7 +155,6 @@
             
             id position = car[@"position"];
             
-            
             CarAnnotationView *annotationView = [self.mapView viewForAnnotation:annotation];
             
             [UIView animateWithDuration:0.2 animations:^{
@@ -167,16 +162,8 @@
                 
                 [annotationView update];
             }];
-            
-            
-            
         }
-        
-        
-        
-
-        
-        
+    
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         
     }];
@@ -189,6 +176,8 @@
 }
 
 - (IBAction)requestTouchUpInside:(id)sender {
+    return;
+    
     RequestViewController *requestVC = [[RequestViewController alloc] init];
     UINavigationController *requestNC = [[UINavigationController alloc] initWithRootViewController:requestVC];
     //requestNC.navigationBar.barStyle = UIBarStyleBlack;
